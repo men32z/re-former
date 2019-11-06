@@ -1,8 +1,16 @@
-  <form action="/users" method="post" accept-charset="UTF-8">
-  username: <input type="text" name="user[username]"><br>
-  email: <input type="text" name="user[email]"><br>
-  password: <input type="password" name="user[password_digest]"><br>
-  password confirmation: <input type="password" name="user[password_digest_confirmation]"><br>
-  <input type="submit" value="Submit">
-  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
-</form> 
+<%= form_with model: @user do |f| %>
+
+  <%= f.label :username, "Your User Name Here" %>
+  <%= f.text_field :username %>
+  <br>
+  <%= f.label :email %>
+  <%= f.text_field :email, placeholder: "example@example.com"  %>
+  <br>
+  <%= f.label :password_digest, "password" %>
+  <%= f.password_field :password_digest %>
+  <br>
+  <%= f.label :password_digest_confirmation, "password confirmation" %>
+  <%= f.password_field :password_digest_confirmation %>
+  <br>
+  <%= f.submit "create" %>
+<% end %>
