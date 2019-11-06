@@ -15,17 +15,17 @@ class UsersController < ApplicationController
     end
   end
 
-  def edit  
+  def edit
     # /users/:id/edit is the route for this controller
     @user = User.find(params[:id])
   end
 
   def update
   @user = User.find(params[:id])
-  
+
     if @user.update(user_params)
       redirect_to @user
-    else 
+    else
       render :edit
     end
   end
