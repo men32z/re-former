@@ -1,12 +1,12 @@
-# Ruby on Rails Tutorial: Forms 
+# Ruby on Rails Tutorial: Forms
 
 This is the Forms Tutorial for
-[*The Odin Project Ruby on Rails Tutorial:*](https://www.theodinproject.com/courses/ruby-on-rails/lessons/forms)
+[_The Odin Project Ruby on Rails Tutorial:_](https://www.theodinproject.com/courses/ruby-on-rails/lessons/forms)
 
 ## License
 
-All source code in the [*The Odin Project*](https://www.theodinproject.com)
-is available under the MIT License. 
+All source code in the [_The Odin Project_](https://www.theodinproject.com)
+is available under the MIT License.
 
 ## Getting started
 
@@ -35,7 +35,8 @@ $ rails server
 ```
 
 ```
-(Live demo)[]
+(Live demo)[https://aqueous-caverns-49588.herokuapp.com/]
 ```
+
 For more information, see the
-[*Ruby on Rails Tutorial* book](https://www.railstutorial.org/book).
+[_The Odin Project Ruby on Rails Tutorial:_](https://www.theodinproject.com/courses/ruby-on-rails/lessons/forms)
