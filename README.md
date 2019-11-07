@@ -35,7 +35,7 @@ $ rails server
 ```
 
 
-(Live demo)[https://aqueous-caverns-49588.herokuapp.com/]
+[Live demo](https://aqueous-caverns-49588.herokuapp.com/)
 
 
 For more information, see the
